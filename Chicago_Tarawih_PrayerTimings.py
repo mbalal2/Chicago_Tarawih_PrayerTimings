@@ -8,14 +8,14 @@ mosque_data = {
         "Jamia Masjid", "Darul Eman 1", "Darul Eman 2", "Darul Eman 3", "Suffah Masjid",
         "Rahmat-E-Alam Western", "Rahmat-E-Alam California", "Raheemiya Masjid", "Darul Hijjrah", "Unity Islamic Center",
         "R&R Learning Center", "Prayer Center of Orland Park", "MEC", "MCC", "Masjid DarusSalam", "NEIU MSA", "Masjid Noor",
-        "UIC MSA", "ICC", "DIC", "Islamic Oasis Center & Mosque", "Islamic Foundation Villa Park", "ICNA Center Oak Brook", "MSI"
+        "UIC MSA", "ICC", "DIC", "Islamic Oasis Center & Mosque", "Islamic Foundation Villa Park", "ICNA Center Oak Brook", "MSI", "Masjid Uthman"
     ],
     "Isha Iqamah/ Tarawih Starts Immediately After": [
         "8:00 PM", "7:45 PM", "8:45 PM", "1:00 AM", "7:45 PM",
         "7:30 PM", "7:30 PM", "7:30 PM", "8:00 PM", "7:45 PM",
         "8:00 PM", "7:00 PM (No Kids), 8:45 PM (Kids Programs)", "8:00 PM", "7:45 PM",
         "7:30 PM", "7:30 PM", "8:00 PM", "8:15 PM", "7:30 PM", "8:00 PM",
-        "7:00 PM", "7:30 PM", "8:00 PM", "8:00 PM"
+        "7:00 PM", "7:30 PM", "8:00 PM", "8:00 PM", "7:45 PM"
     ],
     "# Of Days Tarawih Completion": [
         "29 Day (Starting 1st)", "10 Day (Starting 1st)", "17 Day (Starting 11th)", "25 Day (Starting 1st)", "8 Day (Starting 1st)",
@@ -25,7 +25,7 @@ mosque_data = {
         "29 Day in Main Hall (Starting 1st), 7 Day in Gym (Starting 1st)", "29 Day Mon-Thurs",
         "10 Day Upstairs (Starting 1st), 27 Day in Basement (Starting 1st)", "29 Day (Starting 3rd)",
         "29 Day (Starting 1st)", "29 Day (Starting 1st)", "29 Day (Starting 1st)",
-        "29 Day (Starting 1st)", "27 Day (Starting 1st)", "29 Day (Starting 1st)"
+        "29 Day (Starting 1st)", "27 Day (Starting 1st)", "29 Day (Starting 1st)", "20 Day (Starting 1st)"
     ],
     "Address": [
         "6340 N Campbell Ave, Chicago, IL", "2315 W Devon Ave, Chicago, IL", "2315 W Devon Ave, Chicago, IL",
@@ -36,7 +36,7 @@ mosque_data = {
         "21W525 North Ave, Lombard, IL", "5500 N St Louis Ave, Chicago, IL (SU 219)", "6151 N Greenview Ave, Chicago, IL",
         "750 S Halsted St, Chicago, IL (SCE 713)", "5933 N Lincoln Ave, Chicago, IL", "231 S State St #4, Chicago, IL (5th Floor)",
         "4201 N Monticello Ave, Chicago, IL", "300 W Highridge Rd, Villa Park, IL", "1S270 Summit Ave, Oakbrook Terrace, IL",
-        "1785 Bloomingdale Road, Glendale Heights, IL"
+        "1785 Bloomingdale Road, Glendale Heights, IL", "1208 S Lawler Ave, Lombard, IL"
     ]
 }
 
