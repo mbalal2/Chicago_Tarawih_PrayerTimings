@@ -3,19 +3,19 @@ import pandas as pd
 
 # Updated Mosque Data
 mosque_data = {
-    "Mosque #": list(range(1, 24)),  # Mosque numbers starting from 1
+    "Mosque #": list(range(1, 25)),  # Mosque numbers starting from 1
     "Mosque Name": [
         "Jamia Masjid", "Darul Eman 1", "Darul Eman 2", "Darul Eman 3", "Suffah Masjid",
         "Rahmat-E-Alam Western", "Rahmat-E-Alam California", "Raheemiya Masjid", "Darul Hijjrah", "Unity Islamic Center",
         "R&R Learning Center", "Prayer Center of Orland Park", "MEC", "MCC", "Masjid DarusSalam", "NEIU MSA", "Masjid Noor",
-        "UIC MSA", "ICC", "DIC", "Islamic Oasis Center & Mosque", "Islamic Foundation Villa Park", "ICNA Center Oak Brook"
+        "UIC MSA", "ICC", "DIC", "Islamic Oasis Center & Mosque", "Islamic Foundation Villa Park", "ICNA Center Oak Brook", "MSI"
     ],
     "Isha Iqamah/ Tarawih Starts Immediately After": [
         "8:00 PM", "7:45 PM", "8:45 PM", "1:00 AM", "7:45 PM",
         "7:30 PM", "7:30 PM", "7:30 PM", "8:00 PM", "7:45 PM",
         "8:00 PM", "7:00 PM (No Kids), 8:45 PM (Kids Programs)", "8:00 PM", "7:45 PM",
         "7:30 PM", "7:30 PM", "8:00 PM", "8:15 PM", "7:30 PM", "8:00 PM",
-        "7:00 PM", "7:30 PM", "8:00 PM"
+        "7:00 PM", "7:30 PM", "8:00 PM", "8:00 PM"
     ],
     "# Of Days Tarawih Completion": [
         "29 Day (Starting 1st)", "10 Day (Starting 1st)", "17 Day (Starting 11th)", "25 Day (Starting 1st)", "8 Day (Starting 1st)",
@@ -25,7 +25,7 @@ mosque_data = {
         "29 Day in Main Hall (Starting 1st), 7 Day in Gym (Starting 1st)", "29 Day Mon-Thurs",
         "10 Day Upstairs (Starting 1st), 27 Day in Basement (Starting 1st)", "29 Day (Starting 3rd)",
         "29 Day (Starting 1st)", "29 Day (Starting 1st)", "29 Day (Starting 1st)",
-        "29 Day (Starting 1st)", "27 Day (Starting 1st)"
+        "29 Day (Starting 1st)", "27 Day (Starting 1st)", "29 Day (Starting 1st)"
     ],
     "Address": [
         "6340 N Campbell Ave, Chicago, IL", "2315 W Devon Ave, Chicago, IL", "2315 W Devon Ave, Chicago, IL",
@@ -35,7 +35,8 @@ mosque_data = {
         "6352 N Campbell Ave, Chicago, IL", "16530 104th Ave, Orland Park, IL", "8601 Menard Ave, Morton Grove, IL", "4380 N Elston Ave, Chicago, IL",
         "21W525 North Ave, Lombard, IL", "5500 N St Louis Ave, Chicago, IL (SU 219)", "6151 N Greenview Ave, Chicago, IL",
         "750 S Halsted St, Chicago, IL (SCE 713)", "5933 N Lincoln Ave, Chicago, IL", "231 S State St #4, Chicago, IL (5th Floor)",
-        "4201 N Monticello Ave, Chicago, IL", "300 W Highridge Rd, Villa Park, IL", "1S270 Summit Ave, Oakbrook Terrace, IL"
+        "4201 N Monticello Ave, Chicago, IL", "300 W Highridge Rd, Villa Park, IL", "1S270 Summit Ave, Oakbrook Terrace, IL",
+        "1785 Bloomingdale Road, Glendale Heights, IL"
     ]
 }
 
@@ -92,7 +93,7 @@ st.markdown(
 st.markdown("<p class='big-title'>🕌 Tarawih Prayer Timings in Chicagoland Area</p>", unsafe_allow_html=True)
 st.markdown("<p style='text-align:center; font-style:italic; font-size:18px;'>بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>", unsafe_allow_html=True)
 st.markdown("<p style='text-align:center; font-size:16px; font-weight:bold; color:red;'>**Please note, March 9th is Daylight Savings, hence timings may alter. Prayer timings are subject to change.**</p>", unsafe_allow_html=True)
-st.markdown("<p class='author-text'>Author: Balal</p>", unsafe_allow_html=True)
+st.markdown("<p class='author-text'>Author: M.B</p>", unsafe_allow_html=True)
 
 # Display Table
 st.write("### Mosque Timings Table")
